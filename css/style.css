@@ -1,0 +1,93 @@
+/* Jeneral start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans, sans-serif;
+}
+
+html::-webkit-scrollbar{
+    background-color: #dcdada;
+    width:10px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--color-title-1);
+    height:100px;
+    border-radius: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100.8px;
+}
+
+.container {
+    width: 95%;
+    margin: 50px auto;
+    padding: 35px 0;
+}
+
+.iner {
+    padding: 20px 10px;
+}
+
+.filter-shadow {
+    filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+}
+
+.title-sec {
+    text-align: center;
+}
+
+.title-sec p {
+    color: var(--color-p);
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    margin-bottom: 5px
+}
+
+.title-sec h2 {
+    font-size: 3.125rem;
+    font-family: var(--font-title-sec);
+    margin-bottom: 25px;
+    font-weight: 100;
+}
+
+.title-sec h2 span {
+    color: var(--color-title-3);
+    font-family: var(--font-title-sec);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+img,
+iframe {
+    width: 100%;
+    display: block;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+:root {
+    --color-title-1: #212529;
+    --color-title-2: #37373F;
+    --color-title-3: #E21414;
+    --color-background: #EEEEEE;
+    --color-p: #4f4f5a;
+    --font-defult: Open Sans, sans-serif, font-weight: 100;
+    font-weight: bold;
+    --font-title-sec: "Amatic SC", sans-serif;
+    font-weight: 400;
+}
+/* Jeneral end */
