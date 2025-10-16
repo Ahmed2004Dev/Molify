@@ -450,3 +450,117 @@ button:hover {
 }
 
 /* end gallery section */
+
+/* start contact section */
+.cont-item-media {
+    display: grid;
+    grid-template-rows: 1;
+    margin-top: 10px;
+    width:100%;
+}
+
+.cont-item-media .iner {
+    padding:10px 10px ;
+}
+
+.item-media-contact .iner {
+    background-color: var(--color-background);
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:100%;
+}
+
+.item-media-contact{
+    width:100%;
+    height:100%;
+}
+
+.cont-icon-contact {
+    align-self: center;
+    margin: 0 20px;
+}
+
+.cont-icon-contact i {
+    background-color: var(--color-title-3);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.cont-text-media-contact h3 {
+    color: var(--color-title-1);
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.cont-text-media-contact p {
+    color: var(--color-p);
+}
+
+.cont-text-media-contact p span {
+    color: var(--color-title-1);
+    font-weight: 600;
+}
+
+.input-contact form {
+    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.02);
+    padding: 20px;
+}
+
+.input-contact .top {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-contact .top *,
+.input-contact .bottom * {
+    margin: 5px 0;
+    border: solid 2px var(--color-background);
+    width: 100%;
+    padding: 15px;
+}
+
+.input-contact .top *::placeholder,
+.input-contact .bottom *::placeholder {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: var(--font-defult);
+}
+
+.input-contact .top *:focus,
+.input-contact .bottom *:focus {
+    border: 2px solid var(--color-title-3);
+    outline: none;
+    transition: all 0.5s;
+}
+
+.input-contact .bottom textarea {
+    height: 125px;
+    resize: none;
+}
+
+.input-contact input[type="submit"] {
+    background-color: var(--color-title-3);
+    color: #fff;
+    margin: 25px auto;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 20px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.input-contact input[type="submit"]:hover {
+    background-color: #ff0000;
+}
+
+/* end contact section */
