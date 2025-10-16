@@ -564,3 +564,191 @@ button:hover {
 }
 
 /* end contact section */
+
+/* start footer section */
+.footer {
+    background: url(./../images/textured-metal-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+.footer *:not(span) {
+    color: #fff
+}
+
+.cont-footer {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cont-footer .iner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec-1-footer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 30px;
+}
+
+.sec-1-footer .title {
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px
+}
+
+.cont-img-footer {
+    width: 13%;
+    align-self: center;
+    margin-right: 5%;
+}
+
+.sec-1-footer .title p {
+    width: 70%;
+    align-self: center;
+}
+
+.des-s-1-footer {
+    margin-bottom: 15px;
+}
+
+.ul-s-1-footer {
+    width: 100%;
+    text-align: center;
+}
+
+.ul-s-1-footer p {
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-bottom: solid 2px var(--color-p);
+    margin-bottom: 15px;
+}
+
+.ul-s-1-footer li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.ul-s-1-footer li a {
+    font-size: 23px
+}
+
+.sec-2-footer {
+    margin-bottom: 30px;
+    width:100%;
+}
+
+.sec-2-footer .title h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.sec-2-footer .title p {
+    margin-bottom: 15px;
+}
+
+.form-footer {
+    margin-bottom: 15px;
+}
+
+.form-footer input {
+    margin: 5px 0;
+    border: solid 2px var(--color-background);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-footer input::placeholder {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: var(--font-defult);
+}
+
+.form-footer button {
+    width: 100%;
+    background-color: var(--color-title-3);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: none;
+}
+
+.form-footer button i {
+    margin-right: 10px
+}
+
+.ul-s-2-footer p {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.ul-s-2-footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+}
+
+.ul-s-2-footer li {
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: all .5s;
+    padding: 10px;
+}
+
+.ul-s-2-footer li:hover {
+    background-color: #222222;
+    transform: translateX(10px);
+}
+
+.ul-s-2-footer li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.ul-s-2-footer li a i {
+    margin-right: 5px
+}
+
+.sec-3-footer h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.sec-3-footer ul li {
+    margin-bottom: 15px;
+}
+
+.sec-3-footer ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-3-footer ul li a i {
+    width: 10%;
+    color: var(--color-title-3);
+    font-size: 22px;
+}
+
+.sec-3-footer ul li a p {
+    width: 80%;
+    color: #fff;
+}
+
+/* end footer section */
